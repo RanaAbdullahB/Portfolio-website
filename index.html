@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rana Abdullah | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Rana<span>Abdullah</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="hero">
+      <h2 class="intro-text">Hi, I'm <span>Rana Abdullah</span></h2>
+      <p class="role">Computer Science Student | Content Creator</p>
+      <button class="btn" onclick="scrollToSection('contact')">Hire Me</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate computer science student, content creator, and aspiring influencer.
+      I love creating digital experiences that combine design, storytelling, and technology.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">C++</div>
+      <div class="skill-card">HTML/CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React</div>
+      <div class="skill-card">Video Editing</div>
+      <div class="skill-card">UI/UX</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Complaint Management System</h3>
+        <p>A web app built using HTML/CSS and SQLite for managing student complaints efficiently.</p>
+      </div>
+      <div class="project-card">
+        <h3>AI Tool Showcase</h3>
+        <p>Explored various AI tools and their implications in real-time problem-solving.</p>
+      </div>
+      <div class="project-card">
+        <h3>Video Portfolio</h3>
+        <p>A storytelling-based vlog showcasing my videography and editing skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Rana Abdullah | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
